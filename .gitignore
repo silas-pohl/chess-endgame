@@ -1,0 +1,3 @@
+.deepnote/
+games/*
+!games/.gitkeep
