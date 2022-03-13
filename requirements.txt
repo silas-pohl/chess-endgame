@@ -1,2 +1,4 @@
 chess==1.7.0
+pytz
 memory_profiler
+numpy
