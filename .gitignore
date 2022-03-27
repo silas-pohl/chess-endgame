@@ -2,3 +2,4 @@
 games/*
 tables/*
 !games/.gitkeep
+.ssh.pem
