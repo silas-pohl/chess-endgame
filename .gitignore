@@ -1,3 +1,5 @@
 .deepnote/
 games/*
+tables/*
 !games/.gitkeep
+.ssh.pem
