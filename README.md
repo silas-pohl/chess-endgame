@@ -22,7 +22,9 @@ jupyter notebook
 
 ## Notebooks and project structure
 The jupyter notebooks are described below in the order of the intended execution sequence:
-1. `ChessEndgame.ipynb` This notebook is the introduction to playing chess games using the python-chess library and endgame databases. The ChessEndgame class is created with which you can play/import different endgames with the help of the so-called Gaviota tablebases. Played games are exported and stored in a file in the /games folder.
-2. `PlayChessEndgame.ipynb` This notebook is used for actual playing with the ChessEndgame class, which was implemented in the previous notebook.
-3. `RetrogradeAnalysis.ipynb` This notebook contains the actual Retrograde Analysis algorithm with the help of which we can create our own tablebases. These tablebases are serialized and stored as binaries in the /tables folder.
-4. `ExtendedChessEndgame.ipynb` This notebook extends the first notebook and thus the ChessEndgame class. It implements the class CustomTablebases, which imports the previously created tablebases and the ChessEndgame class is adapted to the extent that playing with these custom tablebases is now possible. The actual playing with custom tablebases can take place directly in this notebook.
+1. `Introduction.ipynb` This notebook is the introduction to playing chess games using the python-chess library and endgame databases. 
+2. `ChessEndgame.ipynb` The ChessEndgame class is created with which you can play/import different endgames with the help of the so-called Gaviota tablebases. Played games are exported and stored in a file in the /games folder.
+3. `PlayChessEndgame.ipynb` This notebook is used for actual playing with the ChessEndgame class, which was implemented in the previous notebook.
+4. `RetrogradeAnalysis.ipynb` This notebook contains the actual Retrograde Analysis algorithm with the help of which we can create our own tablebases. These tablebases are serialized and stored as binaries in the /tables folder.
+5. `ExtendedChessEndgame.ipynb` This notebook extends the first notebook and thus the ChessEndgame class. It implements the class CustomTablebases, which imports the previously created tablebases and the ChessEndgame class is adapted to the extent that playing with these custom tablebases is now possible. The actual playing with custom tablebases can take place directly in this notebook.
+6. `Conclusion.ipynb` This notebook is the conclusion for the student research project and contains the testing of the generated tablebases.
