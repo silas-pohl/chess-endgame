@@ -1,5 +1,8 @@
 .deepnote/
+.ipynb_checkpoints/
 games/*
-tables/*
 !games/.gitkeep
+s_sets/*
+!s_sets/.gitkeep
 .ssh.pem
+.DS_Store
